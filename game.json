@@ -6180,7 +6180,7 @@
                   "parameters": [
                     "ImpEnemy",
                     "BoidsMovement",
-                    "Center",
+                    "Player",
                     "0.5",
                     ""
                   ]
@@ -6261,7 +6261,7 @@
                   "parameters": [
                     "GhostEnemy",
                     "BoidsMovement",
-                    "Center",
+                    "Player",
                     "0.5",
                     ""
                   ]
@@ -7584,7 +7584,7 @@
                       },
                       "parameters": [
                         "Enemies",
-                        "Center",
+                        "Player",
                         "",
                         "",
                         ""
@@ -7596,7 +7596,7 @@
                       },
                       "parameters": [
                         "EnemyBullet",
-                        "Center",
+                        "Player",
                         "",
                         "",
                         ""
