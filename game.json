@@ -853,6 +853,24 @@
         "name": "thumbnail.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "clu2-front.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "clu2-front.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "clu2-front2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "clu2-front2.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1014,13 +1032,14 @@
         {
           "angle": 357,
           "customSize": true,
-          "height": 127,
+          "depth": 1,
+          "height": 221,
           "layer": "Title",
           "name": "Title",
           "persistentUuid": "e085a9cb-0111-4e77-9c02-bf87d81facd0",
-          "width": 379,
-          "x": 197,
-          "y": 23,
+          "width": 659,
+          "x": 104,
+          "y": 81,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1190,6 +1209,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "e498f25f-0de3-4d2b-9a82-f3a3996e559c",
+          "width": 832,
+          "x": -32,
+          "y": -32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "5fc96a3f-1405-423d-85e5-97f9e5124174",
+          "width": 800,
+          "x": 896,
+          "y": -32,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1201,9 +1252,9 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "RAAA",
+            "text": "School Survivor",
             "opacity": 255,
-            "scale": 6,
+            "scale": 2.8,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
@@ -1689,6 +1740,49 @@
               "width": 22
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "rightMargin": 0,
+          "texture": "clu2-front.jpg",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite2",
+          "rightMargin": 0,
+          "texture": "clu2-front2.jpg",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -1726,6 +1820,15 @@
           },
           {
             "objectName": "MusicSlider"
+          },
+          {
+            "objectName": "NewPanelSprite"
+          },
+          {
+            "objectName": "NewPanelSprite2"
+          },
+          {
+            "objectName": "NewTiledSprite"
           }
         ]
       },
