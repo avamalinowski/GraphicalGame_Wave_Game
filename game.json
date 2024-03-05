@@ -925,6 +925,69 @@
         "name": "player-idle3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-walk-feet-in3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-walk-feet-in3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-walk-feet-out2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-walk-feet-out2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle8.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3116,7 +3179,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle.png",
+                      "image": "player-idle6.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3170,7 +3233,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-walk-feet-in2.png",
+                      "image": "player-idle7.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3212,7 +3275,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle2.png",
+                      "image": "player-walk-feet-in3.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3254,7 +3317,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-walk-feet-out.png",
+                      "image": "player-walk-feet-out2.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3296,7 +3359,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle3.png",
+                      "image": "player-idle8.png",
                       "points": [
                         {
                           "name": "Gun",
