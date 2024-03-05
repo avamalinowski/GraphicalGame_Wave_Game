@@ -871,6 +871,60 @@
         "name": "clu2-front2.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-walk-feet-in.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-walk-feet-in.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-walk-feet-in2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-walk-feet-in2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-walk-feet-out.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-walk-feet-out.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -998,7 +1052,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5017435328637433,
+        "zoomFactor": 0.7721853040856631,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2340,7 +2394,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.7370816317994106,
+        "zoomFactor": 2.7773965524835798,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3062,7 +3116,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Player22.png",
+                      "image": "player-idle.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3116,7 +3170,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Player1.png",
+                      "image": "player-walk-feet-in2.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3158,7 +3212,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Player2.png",
+                      "image": "player-idle2.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3200,7 +3254,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Player3.png",
+                      "image": "player-walk-feet-out.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3242,7 +3296,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Player4.png",
+                      "image": "player-idle3.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -8178,6 +8232,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "BoidsMovement",
           "type": "BoidsMovement::BoidsMovement"
         },
@@ -8202,6 +8260,10 @@
           "type": "Health::Health"
         },
         {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
@@ -8212,6 +8274,10 @@
         {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
