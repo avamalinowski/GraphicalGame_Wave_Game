@@ -6129,7 +6129,7 @@
                   },
                   "parameters": [
                     "SpiderEnemy",
-                    "Center",
+                    "Player",
                     "15",
                     "0"
                   ]
