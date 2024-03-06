@@ -988,6 +988,15 @@
         "name": "player-idle8.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "school-image.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "school-image.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1881,7 +1890,7 @@
           "leftMargin": 0,
           "name": "NewPanelSprite2",
           "rightMargin": 0,
-          "texture": "clu2-front2.jpg",
+          "texture": "school-image.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
