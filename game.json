@@ -1033,6 +1033,15 @@
         "name": "soopy-gun.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "classroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "classroom.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2502,7 +2511,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 2.20199581371013,
+        "zoomFactor": 1.5289132892233432,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2849,21 +2858,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Vignette",
-          "name": "vignette",
-          "persistentUuid": "938aa876-c8a4-486b-a27f-0cc15e8e0629",
-          "width": 0,
-          "x": 192,
-          "y": 96,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "transition",
           "name": "Transition",
           "persistentUuid": "a902be8c-0e27-42db-a6a6-be8051858829",
@@ -3136,6 +3130,53 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "WallCollision",
+          "persistentUuid": "bc639e44-f5ca-4426-b756-1b9ff8281a53",
+          "width": 0,
+          "x": 272,
+          "y": 160,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "layer": "",
+          "name": "WallCollision",
+          "persistentUuid": "676a2489-e94b-4f3a-96c5-4c5669537afd",
+          "width": 16,
+          "x": 208,
+          "y": 112,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "layer": "",
+          "name": "WallCollision",
+          "persistentUuid": "9f11d07c-3db0-4af7-b9fe-e4fa15f2ab57",
+          "width": 16,
+          "x": 544,
+          "y": 112,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3159,7 +3200,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "TheRoom2.png",
+                      "image": "classroom.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5017,47 +5058,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "vignette",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Vingette.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
           "name": "RedFlatBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
@@ -6073,6 +6073,17 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -6121,7 +6132,7 @@
             "objectName": "WallCollision"
           },
           {
-            "objectName": "vignette"
+            "objectName": "NewTiledSprite"
           },
           {
             "objectName": "RedFlatBar"
@@ -6209,17 +6220,6 @@
                 },
                 {
                   "type": {
-                    "value": "ZoomCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "2",
-                    "\"Vignette\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "CentreCamera"
                   },
                   "parameters": [
@@ -6227,18 +6227,6 @@
                     "Floor",
                     "",
                     "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CentreCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "vignette",
-                    "",
-                    "\"Vignette\"",
                     ""
                   ]
                 },
