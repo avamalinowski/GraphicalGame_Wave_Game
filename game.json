@@ -1042,6 +1042,204 @@
         "name": "classroom.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-walk-feet-in4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-walk-feet-in4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-walk-feet-out3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-walk-feet-out3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player-idle11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player-idle11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-forward.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-forward.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-forward2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-forward2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side-left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side-left.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side-right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side-right.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-forward3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-forward3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side-left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side-left2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side-right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side-right2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-forward4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-forward4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side-left3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side-left3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-side-right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-side-right3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coin-forward5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin-forward5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bubble-bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bubble-bullet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cash-bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cash-bullet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "liquid-bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "liquid-bullet.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2511,7 +2709,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.5289132892233432,
+        "zoomFactor": 1.9934590384902215,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2522,7 +2720,7 @@
               "name": "Player"
             },
             {
-              "name": "Bullet"
+              "name": "BubbleBullet"
             },
             {
               "name": "GhostEnemy"
@@ -2649,7 +2847,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Gun",
+          "name": "BubbleGun",
           "persistentUuid": "e0860cb0-dd24-47ce-80b2-e92e1022a0db",
           "width": 0,
           "x": 422,
@@ -3265,7 +3463,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle6.png",
+                      "image": "player-idle9.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3319,7 +3517,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle7.png",
+                      "image": "player-idle10.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3361,7 +3559,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-walk-feet-in3.png",
+                      "image": "player-walk-feet-in4.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3403,7 +3601,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-walk-feet-out2.png",
+                      "image": "player-walk-feet-out3.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3445,7 +3643,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle8.png",
+                      "image": "player-idle11.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -3494,7 +3692,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Gun",
+          "name": "BubbleGun",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3576,7 +3774,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Bullet",
+          "name": "BubbleBullet",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3593,7 +3791,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Bullet.png",
+                      "image": "bubble-bullet.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5145,7 +5343,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "EXP_Point",
+          "name": "Coin",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5163,7 +5361,104 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "EXPPoint2",
+                      "image": "coin-forward.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "coin-animation",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "coin-forward4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "coin-side-left3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "coin-side3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "coin-side-right3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "coin-forward5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6084,6 +6379,126 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "CashBullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "cash-bullet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 7,
+                            "y": 0
+                          },
+                          {
+                            "x": 7,
+                            "y": 5
+                          },
+                          {
+                            "x": 0,
+                            "y": 5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "liquid-bullet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 7,
+                            "y": 0
+                          },
+                          {
+                            "x": 7,
+                            "y": 5
+                          },
+                          {
+                            "x": 1,
+                            "y": 5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6096,7 +6511,7 @@
             "objectName": "Player"
           },
           {
-            "objectName": "Gun"
+            "objectName": "BubbleGun"
           },
           {
             "objectName": "ArizonaGun"
@@ -6105,7 +6520,13 @@
             "objectName": "SoopGun"
           },
           {
-            "objectName": "Bullet"
+            "objectName": "BubbleBullet"
+          },
+          {
+            "objectName": "CashBullet"
+          },
+          {
+            "objectName": "NewSprite"
           },
           {
             "objectName": "GhostEnemy"
@@ -6138,7 +6559,7 @@
             "objectName": "RedFlatBar"
           },
           {
-            "objectName": "EXP_Point"
+            "objectName": "Coin"
           },
           {
             "objectName": "Stats"
@@ -6383,7 +6804,7 @@
                     "value": "ChangePlan"
                   },
                   "parameters": [
-                    "Gun",
+                    "BubbleGun",
                     "=",
                     "Player.ZOrder()+1"
                   ]
@@ -7120,7 +7541,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Bullet",
+                    "BubbleBullet",
                     "Enemies",
                     "",
                     "",
@@ -7134,7 +7555,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Bullet",
+                    "BubbleBullet",
                     ""
                   ]
                 },
@@ -7288,7 +7709,7 @@
                       },
                       "parameters": [
                         "",
-                        "EXP_Point",
+                        "Coin",
                         "Enemies.X()",
                         "Enemies.Y()",
                         ""
@@ -7301,6 +7722,17 @@
                       "parameters": [
                         "Enemies",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Coin",
+                        "Animation",
+                        "=",
+                        "\"coin-animation\""
                       ]
                     }
                   ]
@@ -7389,7 +7821,7 @@
                         "value": "MettreXY"
                       },
                       "parameters": [
-                        "Gun",
+                        "BubbleGun",
                         "=",
                         "Player.PointX(\"Gun\")",
                         "=",
@@ -7415,7 +7847,7 @@
                         "value": "RotateTowardPosition"
                       },
                       "parameters": [
-                        "Gun",
+                        "BubbleGun",
                         "CursorX()",
                         "CursorY()",
                         "0",
@@ -7440,7 +7872,7 @@
                         "value": "RotateTowardAngle"
                       },
                       "parameters": [
-                        "Gun",
+                        "BubbleGun",
                         "SpriteMultitouchJoystick::StickAngle(2, \"Secondary\")",
                         "0",
                         "0"
@@ -7491,7 +7923,7 @@
                             "value": "FlipY"
                           },
                           "parameters": [
-                            "Gun",
+                            "BubbleGun",
                             "yes"
                           ]
                         }
@@ -7528,7 +7960,7 @@
                             "value": "FlipY"
                           },
                           "parameters": [
-                            "Gun",
+                            "BubbleGun",
                             ""
                           ]
                         }
@@ -7578,7 +8010,7 @@
                             "value": "FlipY"
                           },
                           "parameters": [
-                            "Gun",
+                            "BubbleGun",
                             ""
                           ]
                         }
@@ -7613,7 +8045,7 @@
                             "value": "FlipY"
                           },
                           "parameters": [
-                            "Gun",
+                            "BubbleGun",
                             "yes"
                           ]
                         }
@@ -7688,12 +8120,12 @@
                         "value": "FireBullet::FireBullet::Fire"
                       },
                       "parameters": [
-                        "Gun",
+                        "BubbleGun",
                         "FireBullet",
-                        "Gun.PointX(\"BulletPoint\")",
-                        "Gun.PointY(\"BulletPoint\")",
-                        "Bullet",
-                        "Gun.Angle()",
+                        "BubbleGun.PointX(\"BulletPoint\")",
+                        "BubbleGun.PointY(\"BulletPoint\")",
+                        "BubbleBullet",
+                        "BubbleGun.Angle()",
                         "200",
                         ""
                       ]
@@ -7708,7 +8140,7 @@
                         "value": "FireBullet::FireBullet::HasJustFired"
                       },
                       "parameters": [
-                        "Gun",
+                        "BubbleGun",
                         "FireBullet",
                         ""
                       ]
@@ -7744,7 +8176,7 @@
                         "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
                       },
                       "parameters": [
-                        "Gun",
+                        "BubbleGun",
                         "ShakeObject_PositionAngle",
                         "0.1",
                         "3",
@@ -7778,7 +8210,7 @@
                         "value": "Distance"
                       },
                       "parameters": [
-                        "Bullet",
+                        "BubbleBullet",
                         "Player",
                         "400",
                         ""
@@ -7791,7 +8223,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "Bullet",
+                        "BubbleBullet",
                         ""
                       ]
                     }
@@ -8044,7 +8476,7 @@
                         "value": "Distance"
                       },
                       "parameters": [
-                        "EXP_Point",
+                        "Coin",
                         "Player",
                         "50",
                         ""
@@ -8057,7 +8489,7 @@
                         "value": "AddForceVers"
                       },
                       "parameters": [
-                        "EXP_Point",
+                        "Coin",
                         "Player",
                         "100",
                         ""
@@ -8073,7 +8505,7 @@
                         "value": "Distance"
                       },
                       "parameters": [
-                        "EXP_Point",
+                        "Coin",
                         "Player",
                         "3",
                         ""
@@ -8086,7 +8518,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "EXP_Point",
+                        "Coin",
                         ""
                       ]
                     },
@@ -8335,10 +8767,10 @@
                             "value": "FireBullet::FireBullet::SetCooldownOp"
                           },
                           "parameters": [
-                            "Gun",
+                            "BubbleGun",
                             "FireBullet",
                             "=",
-                            "Gun.FireBullet::Cooldown()*0.9",
+                            "BubbleGun.FireBullet::Cooldown() * 0.9",
                             ""
                           ]
                         }
@@ -8373,10 +8805,10 @@
                             "value": "FireBullet::FireBullet::SetAngleVarianceOp"
                           },
                           "parameters": [
-                            "Gun",
+                            "BubbleGun",
                             "FireBullet",
                             "=",
-                            "Gun.FireBullet::AngleVariance()*0.9",
+                            "BubbleGun.FireBullet::AngleVariance() * 0.9",
                             ""
                           ]
                         }
