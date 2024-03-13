@@ -1240,6 +1240,28 @@
         "name": "liquid-bullet.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/MPLUS1p-Thin.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Silkscreen-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1344,6 +1366,12 @@
           "value": 50
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "Coins",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -2709,7 +2737,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.9934590384902215,
+        "zoomFactor": 0.870023285985741,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2758,6 +2786,14 @@
             },
             {
               "name": "ImpEnemy"
+            }
+          ]
+        },
+        {
+          "name": "Coins",
+          "objects": [
+            {
+              "name": "coinCounter"
             }
           ]
         }
@@ -2853,21 +2889,6 @@
           "x": 422,
           "y": 236,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Center",
-          "persistentUuid": "fdfa7eb5-650a-40ed-b8c7-7ea0dabd1c42",
-          "width": 0,
-          "x": 384,
-          "y": 192,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3069,25 +3090,9 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 28,
-          "layer": "UI",
-          "name": "RedFlatBar",
-          "persistentUuid": "e8983d4c-378d-446e-ade0-511a3445b7c4",
-          "width": 768,
-          "x": 0,
-          "y": 7,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "LevelUp",
+          "layer": "Shop",
           "name": "Stats",
           "persistentUuid": "3134243a-5fdb-42ca-8e92-5ed1c8ad47d7",
           "width": 0,
@@ -3103,7 +3108,7 @@
           "customSize": true,
           "depth": 32,
           "height": 31,
-          "layer": "LevelUp",
+          "layer": "Shop",
           "name": "PowerButton",
           "persistentUuid": "fb52ea9e-f0ad-4331-a705-a5a7b10537ed",
           "width": 32,
@@ -3119,7 +3124,7 @@
           "customSize": true,
           "depth": 32,
           "height": 32,
-          "layer": "LevelUp",
+          "layer": "Shop",
           "name": "FireRateButton",
           "persistentUuid": "0fe92404-4a7d-4def-b3fa-8ddd572c0654",
           "width": 32,
@@ -3135,7 +3140,7 @@
           "customSize": true,
           "depth": 32,
           "height": 32,
-          "layer": "LevelUp",
+          "layer": "Shop",
           "name": "AccuracyButton",
           "persistentUuid": "71e27148-e0db-4e02-9cd2-aefe0d64018d",
           "width": 32,
@@ -3150,7 +3155,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "LevelUp",
+          "layer": "Shop",
           "name": "Darken",
           "persistentUuid": "b346d150-55b4-416c-ba5e-d154507ff202",
           "width": 0,
@@ -3372,6 +3377,37 @@
           "x": 544,
           "y": 112,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "layer": "UI",
+          "name": "coinDisplayText",
+          "persistentUuid": "c07c62b8-3fbe-4297-8799-20763825b761",
+          "width": 160,
+          "x": 256,
+          "y": 32,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "coinCounter",
+          "persistentUuid": "ff6b2a5b-7870-4d7e-9d88-9a30e071c110",
+          "width": 0,
+          "x": 416,
+          "y": 32,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5763,9 +5799,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 0,
+            "g": 0,
+            "r": 0
           },
           "content": {
             "bold": false,
@@ -5785,7 +5821,7 @@
             "font": "Kenney Mini Square.ttf",
             "textAlignment": "left",
             "characterSize": 40,
-            "color": "255;255;255"
+            "color": "0;0;0"
           }
         },
         {
@@ -6499,6 +6535,188 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "coinDisplayText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Coins:\n",
+          "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Coins:\n",
+            "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 30,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "coinCounter",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0\n",
+          "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0\n",
+            "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 30,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -6553,6 +6771,12 @@
             "objectName": "WallCollision"
           },
           {
+            "objectName": "NewBBText"
+          },
+          {
+            "objectName": "coinCounter"
+          },
+          {
             "objectName": "NewTiledSprite"
           },
           {
@@ -6577,10 +6801,16 @@
             "objectName": "WaveNumber"
           },
           {
+            "objectName": "NewText2"
+          },
+          {
             "objectName": "EnemyBullet"
           },
           {
             "objectName": "Shadow"
+          },
+          {
+            "objectName": "coinDisplayText"
           },
           {
             "objectName": "Drop"
@@ -6590,6 +6820,9 @@
           },
           {
             "objectName": "Aiming"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -6926,6 +7159,7 @@
               "comment": "Enemy controls"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7113,6 +7347,7 @@
               "comment": "Spawning enemies with the \"Enemy Spawn\" scene timer"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7534,6 +7769,7 @@
               "comment": "Enemies taking damage"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7625,6 +7861,11 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -7657,6 +7898,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8244,18 +8486,7 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SeparateFromObjects"
-                      },
-                      "parameters": [
-                        "Player",
-                        "WallCollision",
-                        ""
-                      ]
-                    }
-                  ]
+                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -8393,6 +8624,16 @@
                     "\"MainMenu\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Coins",
+                    "=",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -8449,9 +8690,9 @@
                       "parameters": [
                         "Darken",
                         "0",
-                        "CameraBorderTop(\"LevelUp\", )",
-                        "CameraBorderRight(\"LevelUp\", )",
-                        "CameraBorderBottom(\"LevelUp\", )"
+                        "CameraBorderTop(\"Shop\", )",
+                        "CameraBorderRight(\"Shop\", )",
+                        "CameraBorderBottom(\"Shop\", )"
                       ]
                     }
                   ]
@@ -8524,34 +8765,29 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "Variable.CurrentEXP",
+                        "Coins",
                         "+",
                         "1"
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
                     {
                       "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                       },
                       "parameters": [
-                        "RedFlatBar",
+                        "coinCounter",
+                        "Text",
                         "=",
-                        "Variable(Variable.MaxEXP)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                      },
-                      "parameters": [
-                        "RedFlatBar",
-                        "=",
-                        "Variable(Variable.CurrentEXP)",
-                        ""
+                        "ToString(GlobalVariable(Coins))"
                       ]
                     }
                   ]
@@ -8576,10 +8812,16 @@
                         "value": "VarScene"
                       },
                       "parameters": [
-                        "Variable.CurrentEXP",
-                        ">=",
-                        "Variable(Variable.MaxEXP)"
+                        "Wave",
+                        "=",
+                        "2"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -8598,52 +8840,179 @@
                       },
                       "parameters": [
                         "",
-                        "\"LevelUp\""
+                        "\"Shop\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Wave",
+                        "=",
+                        "3"
                       ]
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
                       },
                       "parameters": [
-                        "Variable.CurrentEXP",
-                        "=",
+                        "",
                         "0"
                       ]
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ShowLayer"
                       },
                       "parameters": [
-                        "Variable.MaxEXP",
-                        "=",
-                        "floor(Variable(Variable.MaxEXP)*1.5)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                      },
-                      "parameters": [
-                        "RedFlatBar",
-                        "=",
-                        "Variable(Variable.CurrentEXP)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                      },
-                      "parameters": [
-                        "RedFlatBar",
-                        "=",
-                        "Variable(Variable.MaxEXP)",
-                        ""
+                        "",
+                        "\"Shop\""
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Wave",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Shop\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Wave",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Shop\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Wave",
+                        "=",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Shop\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ],
               "parameters": []
@@ -8653,7 +9022,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Leveling",
+              "name": "Shop",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -8687,7 +9056,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"LevelUp\""
+                        "\"Shop\""
                       ]
                     }
                   ],
@@ -8698,7 +9067,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"LevelUp\""
+                        "\"Shop\""
                       ]
                     },
                     {
@@ -8896,7 +9265,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "LevelUp",
+          "name": "Shop",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
