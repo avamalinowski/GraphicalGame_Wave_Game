@@ -6479,7 +6479,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "LiquidBullet",
+          "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6744,7 +6744,7 @@
             "objectName": "CashBullet"
           },
           {
-            "objectName": "LiquidBullet"
+            "objectName": "NewSprite"
           },
           {
             "objectName": "GhostEnemy"
