@@ -232,7 +232,7 @@
         "alwaysLoaded": false,
         "file": "assets/Ghost_Hurt5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Ghost_Hurt5.png\",\"extension\":\".png\"}",
         "name": "Ghost_Hurt1.png",
         "smoothed": false,
         "userAdded": true
@@ -241,7 +241,7 @@
         "alwaysLoaded": false,
         "file": "assets/Ghost_Hurt6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Ghost_Hurt6.png\",\"extension\":\".png\"}",
         "name": "Ghost_Hurt2.png",
         "smoothed": false,
         "userAdded": false
@@ -250,7 +250,7 @@
         "alwaysLoaded": false,
         "file": "assets/Ghost_Hurt7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Ghost_Hurt7.png\",\"extension\":\".png\"}",
         "name": "Ghost_Hurt3.png",
         "smoothed": false,
         "userAdded": false
@@ -259,7 +259,7 @@
         "alwaysLoaded": false,
         "file": "assets/Ghost_Hurt8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Ghost_Hurt8.png\",\"extension\":\".png\"}",
         "name": "Ghost_Hurt4.png",
         "smoothed": false,
         "userAdded": true
@@ -463,7 +463,7 @@
         "alwaysLoaded": false,
         "file": "assets/SpiderCharging3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/SpiderCharging3.png\",\"extension\":\".png\"}",
         "name": "SpiderCharging1.png",
         "smoothed": false,
         "userAdded": true
@@ -472,7 +472,7 @@
         "alwaysLoaded": false,
         "file": "assets/SpiderCharging4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/SpiderCharging4.png\",\"extension\":\".png\"}",
         "name": "SpiderCharging2.png",
         "smoothed": false,
         "userAdded": false
@@ -481,7 +481,7 @@
         "alwaysLoaded": false,
         "file": "assets/SpiderHurt2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/SpiderHurt2.png\",\"extension\":\".png\"}",
         "name": "SpiderHurt.png",
         "smoothed": false,
         "userAdded": false
@@ -1262,6 +1262,330 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-feet-in.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-feet-in.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-feet-out.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-feet-out.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-hurt-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-hurt-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-hurt-idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-hurt-idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-idle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-hurt0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-hurt0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-hurt-idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-hurt-idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-idle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zombie-idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zombie-idle5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-left.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-middle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-middle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-middle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-middle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kresge-fly-down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kresge-fly-down.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kresge-idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kresge-idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kresge-fly-up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kresge-fly-up.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kresge-idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kresge-idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-hurt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-sad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-sad.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kresge-hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kresge-hurt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kresge-idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kresge-idle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kresge-sad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kresge-sad.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-left2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-middle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-middle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-idle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sluggy-middle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sluggy-middle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sammy-idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sammy-idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sammy-left-feet-in.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sammy-left-feet-in.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sammy-right-feet-out.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sammy-right-feet-out.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sammy-idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sammy-idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sammy-right-feet-out2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sammy-right-feet-out2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sammy-hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sammy-hurt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sammy-idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sammy-idle3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3915,7 +4239,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ghost1.png",
+                      "image": "kresge-idle.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -3957,7 +4281,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ghost2.png",
+                      "image": "kresge-fly-down.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -3999,7 +4323,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ghost3.png",
+                      "image": "kresge-idle2.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4041,7 +4365,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ghost4.png",
+                      "image": "kresge-fly-up.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4091,11 +4415,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ghost_Hurt1.png",
+                      "image": "kresge-hurt.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4137,7 +4462,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ghost_Hurt2.png",
+                      "image": "kresge-idle3.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4179,49 +4504,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Ghost_Hurt3.png",
-                      "points": [
-                        {
-                          "name": "HealthBar",
-                          "x": 12,
-                          "y": 3
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 12,
-                        "y": 26
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 28.5
-                          },
-                          {
-                            "x": 7,
-                            "y": 28.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Ghost_Hurt4.png",
+                      "image": "kresge-sad.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4316,7 +4599,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spider1.png",
+                      "image": "sluggy-middle3.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4358,7 +4641,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spider2.png",
+                      "image": "sluggy-left2.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4400,7 +4683,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spider3.png",
+                      "image": "sluggy-middle4.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4442,7 +4725,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Spider4.png",
+                      "image": "sluggy-idle3.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4492,11 +4775,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "SpiderHurt.png",
+                      "image": "sluggy-hurt.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4538,7 +4822,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "SpiderCharging1.png",
+                      "image": "sluggy-sad.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4580,49 +4864,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "SpiderCharging2.png",
-                      "points": [
-                        {
-                          "name": "HealthBar",
-                          "x": 12,
-                          "y": 3
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 12,
-                        "y": 22
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 28.5
-                          },
-                          {
-                            "x": 7,
-                            "y": 28.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "SpiderCharging1.png",
+                      "image": "sluggy-idle2.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4761,7 +5003,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ImpFly1.png",
+                      "image": "sammy-idle.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4803,7 +5045,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ImpFly2.png",
+                      "image": "sammy-left-feet-in.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4845,7 +5087,49 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ImpFly3.png",
+                      "image": "sammy-idle2.png",
+                      "points": [
+                        {
+                          "name": "HealthBar",
+                          "x": 12,
+                          "y": 3
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 28
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 8
+                          },
+                          {
+                            "x": 17,
+                            "y": 8
+                          },
+                          {
+                            "x": 17,
+                            "y": 28.5
+                          },
+                          {
+                            "x": 7,
+                            "y": 28.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sammy-right-feet-out2.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4899,7 +5183,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ImpHurt.png",
+                      "image": "sammy-hurt.png",
                       "points": [
                         {
                           "name": "HealthBar",
@@ -4941,91 +5225,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ImpFly5.png",
-                      "points": [
-                        {
-                          "name": "HealthBar",
-                          "x": 12,
-                          "y": 3
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 16,
-                        "y": 28
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 28.5
-                          },
-                          {
-                            "x": 7,
-                            "y": 28.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "ImpFly6.png",
-                      "points": [
-                        {
-                          "name": "HealthBar",
-                          "x": 12,
-                          "y": 3
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 16,
-                        "y": 28
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 8
-                          },
-                          {
-                            "x": 17,
-                            "y": 28.5
-                          },
-                          {
-                            "x": 7,
-                            "y": 28.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "ImpFly5.png",
+                      "image": "sammy-idle3.png",
                       "points": [
                         {
                           "name": "HealthBar",
