@@ -1586,6 +1586,29 @@
         "name": "sammy-idle3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/15 - rock city ransom chiptune version.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fc77261ed92897e71795038c6e6ca0b6b9a52e5a693c94fb006aaeed0edc46fe_15 - rock city ransom chiptune version.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/fc77261ed92897e71795038c6e6ca0b6b9a52e5a693c94fb006aaeed0edc46fe_15 - rock city ransom chiptune version.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1658,6 +1681,54 @@
       "absoluteCoordinates": true,
       "clearBetweenFrames": false,
       "antialiasing": "none"
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "FinalCoins",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "FinalCoins",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1665,6 +1736,9 @@
     "children": [
       {
         "objectName": "Transition"
+      },
+      {
+        "objectName": "FinalCoins"
       },
       {
         "objectName": "Darken"
@@ -1696,6 +1770,12 @@
       "name": "Coins",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "FinalCoin",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -1719,7 +1799,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7721853040856631,
+        "zoomFactor": 0.7469963409017263,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1959,6 +2039,36 @@
           "x": 896,
           "y": -32,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Coins",
+          "persistentUuid": "c2dbc370-639b-4920-93ca-20dc11e8acf9",
+          "width": 0,
+          "x": 32,
+          "y": 0,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "FinalCoins",
+          "persistentUuid": "fd36c9bf-5e18-4ca5-8d69-0871bb337a36",
+          "width": 0,
+          "x": 256,
+          "y": 0,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2504,6 +2614,47 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Coins",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You collected",
+          "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You collected",
+            "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2550,6 +2701,9 @@
           },
           {
             "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "Coins"
           }
         ]
       },
@@ -3720,6 +3874,36 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ArizonaGun",
+          "persistentUuid": "aea52200-2c19-4497-8921-03f1fc59b43f",
+          "width": 0,
+          "x": 416,
+          "y": 224,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SoopGun",
+          "persistentUuid": "95a975fd-af21-406b-b989-ef60679fce15",
+          "width": 0,
+          "x": 420,
+          "y": 224,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3808,7 +3992,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "player-idle9.png",
+                      "image": "player-idle.png",
                       "points": [
                         {
                           "name": "Gun",
@@ -5708,7 +5892,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Power: 1\nFire Rate: 1\nAccuracy: 1",
+            "text": "Buy: Bubble gun\nBuy: Scoop gun\nBuy: Arizona gun",
             "opacity": 255,
             "scale": 2,
             "fontSize": 20,
@@ -6415,7 +6599,7 @@
               "FireCooldown": 0.35,
               "HasJustFired": false,
               "FiringArc": 45,
-              "BulletQuantity": 1,
+              "BulletQuantity": 2,
               "AngleVariance": 15,
               "RotateBullet": true,
               "AmmoQuantity": 0,
@@ -6510,7 +6694,7 @@
               "FireCooldown": 0.35,
               "HasJustFired": false,
               "FiringArc": 45,
-              "BulletQuantity": 1,
+              "BulletQuantity": 3,
               "AngleVariance": 15,
               "RotateBullet": true,
               "AmmoQuantity": 0,
@@ -7154,6 +7338,34 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ArizonaGun"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "SoopGun"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "fc77261ed92897e71795038c6e6ca0b6b9a52e5a693c94fb006aaeed0edc46fe_15 - rock city ransom chiptune version.aac",
+                    "yes",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -7223,6 +7435,26 @@
                   },
                   "parameters": [
                     "BubbleGun",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "ArizonaGun",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "SoopGun",
                     "=",
                     "Player.ZOrder()+1"
                   ]
@@ -8250,6 +8482,30 @@
                       "parameters": [
                         "BubbleGun",
                         "=",
+                        "Player.PointX(\"BubbleGun\")",
+                        "=",
+                        "Player.PointY(\"BubbleGun\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "ArizonaGun",
+                        "=",
+                        "Player.PointX(\"ArizonaGun\")",
+                        "=",
+                        "Player.PointY(\"ArizonaGun\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "SoopGun",
+                        "=",
                         "Player.PointX(\"Gun\")",
                         "=",
                         "Player.PointY(\"Gun\")"
@@ -8280,6 +8536,30 @@
                         "0",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "ArizonaGun",
+                        "CursorX()",
+                        "CursorY()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "SoopGun",
+                        "CursorX()",
+                        "CursorY()",
+                        "0",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -8300,6 +8580,28 @@
                       },
                       "parameters": [
                         "BubbleGun",
+                        "SpriteMultitouchJoystick::StickAngle(2, \"Secondary\")",
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "ArizonaGun",
+                        "SpriteMultitouchJoystick::StickAngle(2, \"Secondary\")",
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "SoopGun",
                         "SpriteMultitouchJoystick::StickAngle(2, \"Secondary\")",
                         "0",
                         "0"
@@ -8351,6 +8653,24 @@
                           },
                           "parameters": [
                             "BubbleGun",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "ArizonaGun",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "SoopGun",
                             "yes"
                           ]
                         }
@@ -8440,6 +8760,24 @@
                             "BubbleGun",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "ArizonaGun",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "SoopGun",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -8473,6 +8811,24 @@
                           },
                           "parameters": [
                             "BubbleGun",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "ArizonaGun",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "SoopGun",
                             "yes"
                           ]
                         }
@@ -8811,6 +9167,17 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "FinalCoins",
+                    "Text",
+                    "=",
+                    "Coins.Text::Value()"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -9300,6 +9667,31 @@
                             "+",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ArizonaGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "SoopGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "BubbleGun",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -9314,6 +9706,16 @@
                             "FireRateButton",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Coins",
+                            ">=",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -9324,7 +9726,7 @@
                           "parameters": [
                             "Variable.FireRate",
                             "+",
-                            "1"
+                            "10"
                           ]
                         },
                         {
@@ -9332,10 +9734,65 @@
                             "value": "FireBullet::FireBullet::SetCooldownOp"
                           },
                           "parameters": [
-                            "BubbleGun",
+                            "ArizonaGun",
                             "FireBullet",
                             "=",
                             "BubbleGun.FireBullet::Cooldown() * 0.9",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "coinDisplayText",
+                            "-",
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "ArizonaGun",
+                            "=",
+                            "Player.PointX(\"Gun\")",
+                            "=",
+                            "Player.PointY(\"Gun\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ArizonaGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "BubbleGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "SoopGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "ArizonaGun",
                             ""
                           ]
                         }
@@ -9352,6 +9809,16 @@
                             "AccuracyButton",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Coins",
+                            ">=",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -9362,7 +9829,7 @@
                           "parameters": [
                             "Variable.Accuracy",
                             "+",
-                            "1"
+                            "10"
                           ]
                         },
                         {
@@ -9370,10 +9837,55 @@
                             "value": "FireBullet::FireBullet::SetAngleVarianceOp"
                           },
                           "parameters": [
-                            "BubbleGun",
+                            "SoopGun",
                             "FireBullet",
                             "=",
                             "BubbleGun.FireBullet::AngleVariance() * 0.9",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "SoopGun",
+                            "=",
+                            "Player.PointX(\"Gun\")",
+                            "=",
+                            "Player.PointY(\"Gun\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "SoopGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "BubbleGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ArizonaGun"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "SoopGun",
                             ""
                           ]
                         }
@@ -9390,7 +9902,7 @@
                           "parameters": [
                             "Stats",
                             "=",
-                            "\"Power: \" + ToString(Variable(Variable.Power)) + \"\nFire Rate: \" + ToString(Variable(Variable.FireRate)) + \"\nAccuracy: \" + ToString(Variable(Variable.Accuracy))"
+                            "\"Bubble gun: 15$ \" +NewLine()+ \n\"Soop gun: 15$ \"  +NewLine()+\n\"Arizona gun: 15$ \""
                           ]
                         }
                       ]
