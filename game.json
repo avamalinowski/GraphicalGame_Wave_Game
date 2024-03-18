@@ -1849,7 +1849,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8817262336928068,
+        "zoomFactor": 0.8251400122914816,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2877,7 +2877,7 @@
             }
           ],
           "behaviors": [],
-          "string": "Credits:\nTemplate and EnemyBullet: https://gdevelop.io/game-example/free/wave-defense-shooter (property of Gdevelop)\nAll other assets: Ava Malinowski, Foundations of Game Design, Winter 2023/24\n",
+          "string": "Credits:\nTemplate and EnemyBullet: https://gdevelop.io/game-example/free/wave-defense-shooter (property of Gdevelop)\nrock city ransom chiptune version: https://gdevelop.io/asset-store (property of Gdevelop)\nAll other assets: Ava Malinowski, Foundations of Game Design, Winter 2023/24\n",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -2900,7 +2900,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Credits:\nTemplate and EnemyBullet: https://gdevelop.io/game-example/free/wave-defense-shooter (property of Gdevelop)\nAll other assets: Ava Malinowski, Foundations of Game Design, Winter 2023/24\n",
+            "text": "Credits:\nTemplate and EnemyBullet: https://gdevelop.io/game-example/free/wave-defense-shooter (property of Gdevelop)\nrock city ransom chiptune version: https://gdevelop.io/asset-store (property of Gdevelop)\nAll other assets: Ava Malinowski, Foundations of Game Design, Winter 2023/24\n",
             "font": "",
             "textAlignment": "center",
             "characterSize": 30,
@@ -3532,7 +3532,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 2.599152591679683,
+        "zoomFactor": 1.6888536947041513,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3667,7 +3667,7 @@
           "persistentUuid": "898bef57-dc9a-4d2c-9fae-7a764eeffed4",
           "width": 0,
           "x": 396,
-          "y": 251,
+          "y": 249,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -9982,7 +9982,7 @@
                           "parameters": [
                             "Variable.Power",
                             "+",
-                            "1"
+                            "10"
                           ]
                         },
                         {
@@ -10219,7 +10219,7 @@
                           "parameters": [
                             "Stats",
                             "=",
-                            "\"Bubble gun: 15$ \" +NewLine()+ \n\"Soop gun: 15$ \"  +NewLine()+\n\"Arizona gun: 15$ \""
+                            "\"Bubble gun: 15$ \" +NewLine()+ \n\"Arizona gun: 15$ \"  +NewLine()+\n\"Soop gun: 15$ \""
                           ]
                         }
                       ]
