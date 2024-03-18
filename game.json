@@ -1609,6 +1609,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/fc77261ed92897e71795038c6e6ca0b6b9a52e5a693c94fb006aaeed0edc46fe_15 - rock city ransom chiptune version.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Background Blue Land.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "aeedf8b81f70178c65fb63e0dd2860d6fed2f6bfaf542e27101da1bd6f723ae6_tiled_Background Blue Land.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/aeedf8b81f70178c65fb63e0dd2860d6fed2f6bfaf542e27101da1bd6f723ae6_tiled_Background Blue Land.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1729,6 +1742,40 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Transition2",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     }
   ],
   "objectsFolderStructure": {
@@ -1736,6 +1783,9 @@
     "children": [
       {
         "objectName": "Transition"
+      },
+      {
+        "objectName": "Transition2"
       },
       {
         "objectName": "FinalCoins"
@@ -1799,7 +1849,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7469963409017263,
+        "zoomFactor": 0.8817262336928068,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2048,12 +2098,12 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Coins",
-          "persistentUuid": "c2dbc370-639b-4920-93ca-20dc11e8acf9",
+          "name": "FinalCoins",
+          "persistentUuid": "fd36c9bf-5e18-4ca5-8d69-0871bb337a36",
           "width": 0,
-          "x": 32,
+          "x": 256,
           "y": 0,
-          "zOrder": 13,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2063,12 +2113,75 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "FinalCoins",
-          "persistentUuid": "fd36c9bf-5e18-4ca5-8d69-0871bb337a36",
+          "name": "Credits",
+          "persistentUuid": "7d943ac2-8486-4640-830f-50af25171f83",
           "width": 0,
-          "x": 256,
+          "x": 288,
+          "y": 384,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "8b930b5e-456f-4671-8087-3398af36e448",
+          "width": 800,
+          "x": 1792,
+          "y": -32,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "CreditsMarker",
+          "persistentUuid": "b06896f5-4714-44b6-80aa-4186e84d4393",
+          "width": 768,
+          "x": 1792,
           "y": 0,
-          "zOrder": 14,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Back",
+          "persistentUuid": "3031f8f9-c430-4e25-851b-6a2c65cb89fb",
+          "width": 0,
+          "x": 2144,
+          "y": 384,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "386b26b1-5d65-4e69-ac6e-1187cad31c20",
+          "width": 736,
+          "x": 1824,
+          "y": 64,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2655,6 +2768,144 @@
             "characterSize": 20,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Credits",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "content": {
+            "text": "Credits",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "CreditsMarker",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Enemy_Spawn_Location.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "Credits:\nTemplate and EnemyBullet: https://gdevelop.io/game-example/free/wave-defense-shooter (property of Gdevelop)\nAll other assets: Ava Malinowski, Foundations of Game Design, Winter 2023/24\n",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Credits:\nTemplate and EnemyBullet: https://gdevelop.io/game-example/free/wave-defense-shooter (property of Gdevelop)\nAll other assets: Ava Malinowski, Foundations of Game Design, Winter 2023/24\n",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2682,7 +2933,13 @@
             "objectName": "Quit"
           },
           {
+            "objectName": "Credits"
+          },
+          {
             "objectName": "Marker"
+          },
+          {
+            "objectName": "CreditsMarker"
           },
           {
             "objectName": "SettingsMarker"
@@ -2704,6 +2961,9 @@
           },
           {
             "objectName": "Coins"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -3047,6 +3307,15 @@
                 "1000",
                 "\"easeInOutQuad\""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Title",
+                ""
+              ]
             }
           ]
         },
@@ -3087,6 +3356,54 @@
                 "\"Settings\"",
                 "\"Settings\"",
                 "GlobalVarToJSON(Settings)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Title",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Credits",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "CreditsMarker.CenterX()",
+                "CameraCenterY()",
+                "",
+                "1000",
+                "\"easeInOutQuad\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Title"
               ]
             }
           ]
@@ -3215,7 +3532,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.5289132892233444,
+        "zoomFactor": 2.599152591679683,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3883,8 +4200,8 @@
           "name": "ArizonaGun",
           "persistentUuid": "aea52200-2c19-4497-8921-03f1fc59b43f",
           "width": 0,
-          "x": 416,
-          "y": 224,
+          "x": 388,
+          "y": 240,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -3898,8 +4215,8 @@
           "name": "SoopGun",
           "persistentUuid": "95a975fd-af21-406b-b989-ef60679fce15",
           "width": 0,
-          "x": 420,
-          "y": 224,
+          "x": 388,
+          "y": 240,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -5892,7 +6209,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Buy: Bubble gun\nBuy: Scoop gun\nBuy: Arizona gun",
+            "text": "Buy: Bubble gun\nBuy: Arizona gun\nBuy: Soop gun",
             "opacity": 255,
             "scale": 2,
             "fontSize": 20,
@@ -8482,9 +8799,9 @@
                       "parameters": [
                         "BubbleGun",
                         "=",
-                        "Player.PointX(\"BubbleGun\")",
+                        "Player.PointX(\"Player\")",
                         "=",
-                        "Player.PointY(\"BubbleGun\")"
+                        "Player.PointY(\"Player\")"
                       ]
                     },
                     {
@@ -8494,9 +8811,9 @@
                       "parameters": [
                         "ArizonaGun",
                         "=",
-                        "Player.PointX(\"ArizonaGun\")",
+                        "Player.PointX(\"Player\")",
                         "=",
-                        "Player.PointY(\"ArizonaGun\")"
+                        "Player.PointY(\"Player\")"
                       ]
                     },
                     {
